@@ -1,0 +1,38 @@
+{
+  "subExtraSales" : "Penjualan Sub Ekstra",
+  "subExtrasSalesChart" : "Grafik Penjualan Sub Ekstra",
+  "period": {
+    "hour": "Jam",
+    "day": "Hari",
+    "week": "Minggu",
+    "month": "Bulan",
+    "year": "Tahun"
+  },
+  "chartType": {
+    "sales" : "Penjualan",
+    "product": "Produk"
+  },
+  "summary": {
+    "totalSubExtra": "Total Sub Ekstra",
+    "totalSales": "Total Penjualan"
+  },
+  "columns": {
+    "subExtras": "Sub Ekstra",
+    "quantity": "Jumlah",
+    "quantityPercent": "Jumlah %",
+    "sales": "Penjualan (Rp)",
+    "salesPercent": "Penjualan %",
+    "grossProfit": "Laba Kotor (Rp)",
+    "grossProfitPercent": "Laba Kotor %",
+    "measurement": "Measurement"
+  },
+  "modal": {
+    "export" : {
+      "description" : "The <bold>Sub Extras Sales</bold> report for the period <bold>{{startDate}}</bold> to <bold>{{endDate}}</bold> will be exported and stored on the device used. Continue?"
+    },
+    "toast": {
+      "successExport" : "Laporan <bold>Penjualan Sub Ekstra</bold> berhasil diekspor",
+      "failedExport" : "Laporan <bold>Penjualan Sub Ekstra</bold> gagal diekspor"
+    }
+  }
+}

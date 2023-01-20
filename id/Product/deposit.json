@@ -1,0 +1,72 @@
+{
+  "depositList": "Daftar Deposit",
+  "addDeposit": "Tambah Deposit",
+  "editDeposit": "Ubah Deposit",
+  "saveDeposit": "Save Deposit",
+  "dataType":{
+    "all": "Semua",
+    "active": "Aktif",
+    "inactive": "Tidak Aktif"
+  },
+  "columns" : {
+    "depositName" : "Nama Deposit",
+    "price": "Harga",
+    "validityPeriod": "Masa Berlaku",
+    "outlet": "Outlet",
+    "status": "Status",
+    "edit": "Ubah",
+    "activityLog": "Log Aktivitas",
+    "delete": "Hapus"
+  },
+  "columnsProducts":{
+    "product": "Produk",
+    "category": "Kategori",
+    "price": "Harga"
+  },
+  "depositInformation": "Informasi Deposit",
+  "status&ValidityPeriod": "Status & Masa Berlaku",
+  "deposit": "Deposit",
+  "setProduct": "Atur Produk",
+  "depositInformationBanner": "Penjualan deposit di kasir harus dalam transaksi terpisah dan tidak dapat digabungkan dengan penjualan produk lain",
+  "photoInformation": "Format gambar .jpg .jpeg .png dan ukuran minimum 360 x 300px (Untuk gambar optimal gunakan ukuran minimum 800 x 700 px).",
+  "outletList": "Daftar Outlet",
+  "photo": "Foto",
+  "depositPlaceholder": "Contoh: Depo Burger",
+  "sellingPrice": "Harga Jual",
+  "sellingPricePlaceholder": "Contoh: Rp 12.000",
+  "shownInMenu": "Tampil di Menu",
+  "depositAmount": "Nominal Deposit",
+  "depositAmountPlaceholder": "Contoh: Rp 1.000.000",
+  "productList": "Product List",
+  "1Month": "1 Bulan (30 hari)",
+  "days": "hari",
+  "day": "hari",
+  "modal":{
+    "title": {
+      "cancelAddTitle": "Batal Tambah Deposit",
+      "cancelEditTitle" : "Batal Ubah Deposit",
+      "deleteTitle": "Hapus Deposit"
+    },
+    "confirm":{
+      "addDescription": "Deposit <bold>{{nameDeposit}}</bold> akan disimpan dan tampil di daftar deposit sesuai dengan pengaturan yang telah dilakukan. Lanjutkan?",
+      "editDescription": "Perubahan data deposit <bold>{{nameDeposit}}</bold> akan disimpan dan tampil di daftar deposit. Lanjutkan?",
+      "cancelDescription": "Membatalkan proses <bold>{{nameDeposit}}</bold> akan menghapus seluruh data yang telah diinput. Lanjutkan?",
+      "deleteDescription": "Menghapus deposit <bold>{{nameDeposit}}</bold> akan menghilangkan deposit tersebut secara permanen dari daftar & tidak dapat dibatalkan. Lanjutkan?"
+    },
+    "toast": {
+      "addSuccess": "Deposit <bold>{{depositName}}</bold> berhasil ditambahkan",
+      "editSuccess": "Deposit <bold>{{depositName}}</bold> berhasil diubah",
+      "deleteSuccess": "Deposit <bold>{{depositName}}</bold> berhasil dihapus"
+    }
+  },
+  "form":{
+    "outletRequired": "Mohon pilih Outlet terlebih dahulu",
+    "depositNameRequired": "Nama Deposit tidak boleh kosong",
+    "sellingPriceRequired": "Harga Jual tidak boleh kosong",
+    "depositAmountRequired": "Nominal Deposit tidak boleh kosong",
+    "itemRequired": "Mohon pilih Produk terlebih dahulu"
+  },
+  "selectProduct": "Pilih Produk",
+  "allCategories": "Semua Kategori",
+  "allProducts": "Semua Produk"
+}

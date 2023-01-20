@@ -1,0 +1,38 @@
+{
+  "subExtraSales" : "Sub Extra Sales",
+  "subExtrasSalesChart" : "Sub Extras Sales Chart",
+  "period": {
+    "hour": "Hour",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "chartType": {
+    "sales" : "Sales",
+    "product": "Product"
+  },
+  "summary": {
+    "totalSubExtra": "Total Sub Extra",
+    "totalSales": "Total Sales"
+  },
+  "columns": {
+    "subExtras": "Sub Extras",
+    "quantity": "Quantity",
+    "quantityPercent": "Quantity %",
+    "sales": "Sales (Rp)",
+    "salesPercent": "Sales %",
+    "grossProfit": "Gross Profit (Rp)",
+    "grossProfitPercent": "Gross Profit %",
+    "measurement": "Takaran"
+  },
+  "modal": {
+    "export" : {
+      "description" : "The <bold>Sub Extras Sales</bold> report for the period <bold>{{startDate}}</bold> to <bold>{{endDate}}</bold> will be exported and stored on the device used. Continue?"
+    },
+    "toast": {
+      "successExport" : "<bold>Sub Extras Sales</bold> report successfully exported",
+      "failedExport" : "<bold>Sub Extras Sales</bold> report failed to export"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "categorySales": "Penjualan Kategori",
+  "categorySalesChart": "Grafik Penjualan Kategori",
+  "allDepartment": "Semua Departemen",
+  "summary": {
+    "totalCategory": "Total Kategori",
+    "totalCategorySales": "Total Penjualan Kategori"
+  },
+  "columns": {
+    "categories": "Kategori",
+    "productQty": "Jumlah Product",
+    "product": "Produk (%)",
+    "sales": "Product (RP)",
+    "salesPercent": "Penjualan (%)",
+    "cogs": "HPP (RP)"
+  },
+  "modal": {
+    "export" : {
+      "description" : "Laporan <bold>Penjualan Kategori</bold> pada periode <bold>startDate</bold> sampai <bold>endDate</bold> akan diekspor dan disimpan di perangkat yang digunakan. Lanjutkan?"
+    },
+    "toast": {
+      "successExport" : "Laporan <bold>Penjualan Kategori</bold> berhasil diekspor",
+      "failedExport" : "Laporan <bold>Penjualan Kategori</bold> gagal diekspor"
+    }
+  }
+}

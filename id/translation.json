@@ -1,0 +1,75 @@
+{
+    "legend": {
+        "sales": "Penjualan",
+        "transaction": "Transaksi",
+        "grossProfit": "Laba Kotor",
+        "product": "Produk"
+    },
+    "period": {
+        "hour": "Jam",
+        "day": "Hari",
+        "week": "Minggu",
+        "month": "Bulan",
+        "year": "Tahun"
+    },
+    "save": "Simpan",
+    "label": {
+        "exportReport": "Ekspor Laporan",
+        "exportTemplate": "Ekspor Template",
+        "importData": "Impor Data",
+        "exportData": "Ekspor Data",
+        "cancel": "Batal",
+        "cancelled": "Batalkan",
+        "continue": "Ya, Lanjutkan",
+        "continue2": "Lanjutkan",
+        "apply": "Terapkan",
+        "confirm": "Oke, Mengerti",
+        "waiting": "Tunggu...",
+        "importConfirmation": "Konfirmasi Impor",
+        "close": "Tutup",
+        "nextOption": "Opsi Lanjutan",
+        "delete": "Hapus",
+        "added": "ditambah",
+        "changed": "diubah",
+        "deleted": "dihapus",
+        "exporting": "Mengekspor",
+        "addProduct": "Tambah Produk",
+        "product": "Produk"
+    },
+    "placeholder": {
+        "search": "Cari ..."
+    },
+    "select": {
+        "categoryDefaultSelectOption": "Semua Kategori",
+        "typeSelectTitle": "Pilih Type",
+        "select": "Pilih",
+        "typeSelectOption": {
+            "default": "Semua Tipe",
+            "product": "Produk",
+            "material": "Bahan"
+        },
+        "showOnMenuOption": {
+            "semua": "Semua",
+            "tampilMenu": "Tampil di Menu",
+            "tidakTampil": "Tidak Tampil di Menu"
+        }
+    },
+    "warning": {
+        "capitalMoreThanPurchasePrice": "Terdapat beberapa data yang memiliki harga modal lebih besar daripada harga jual."
+    },
+    "suggest": {
+        "continueAddMaterialOrCancel": "Silahkan pilih lanjutkan untuk menambahkan bahan, atau tekan Batal untuk membatalkan."
+    },
+    "error": {
+        "fileNotFound": "File tidak ditemukan di server",
+        "exportFail": "Gagal mengekspor file",
+        "importFail": "Impor Data Gagal",
+        "unchoosedFile": "Mohon pilih file terlebih dahulu",
+        "unmatchLengthRequirementsItem": "Item Tidak Sesuai Ketentuan {{notMatchReq}}",
+        "unregisteredValueQty": "Jumlah {{entity}} {{notMatchReq}}"
+    },
+    "toast": {
+        "success": "Berhasil!",
+        "error": "Gagal!"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "header": {
+      "title": "Sales Summary",
+      "buttonDownload": "Export Reports"
+    },
+    "card": {
+        "revenue": "Total Revenue",
+        "cost": "Promotional Cost",
+        "sales": "Total Sales",
+        "grossProfit": "Total Gross Profit"
+    },
+    "modal": {
+        "description": "<strong>The Sales Summary</strong> report for the period <strong>{{startDate}}</strong> to <strong>{{endDate}}</strong> will be exported and stored on the device used. Continue?"
+    },
+    "toast":{
+        "exportSuccess": "<strong>Sales Summary</strong> report successfully exported",
+        "exportFailed": "<strong>Sales Summary</strong> report failed to export"
+    },
+    "content": {
+        "title": "Sales Summary Details",
+        "tableRevenue": 
+            {
+                "headerTable":"REVENUE",
+                "row1": "Gross Sales",
+                "row2": "Delivery Fee",
+                "row3": "Service Charge",
+                "row4": "MDR Service Fee",
+                "row5": "Rounding",
+                "row6": "Tax",
+                "row7": "Others"
+            },
+        "tablePromotionalCost": 
+            {
+                "headerTable":"PROMOTIONAL COST",
+                "row1": "Purchase Promo",
+                "row2": "Product Promo",
+                "row3": "Compliment"
+            },
+        "tableGrossProfit": 
+            {
+                "headerTable":"GROSS PROFIT",
+                "row1": "Sales",
+                "row2": "MDR Fee",
+                "row3": "Refund",
+                "row4": "CoGS",
+                "row5": "Commission",
+                "tooltip": "Total Income - Total Promotional Cost"
+            }
+    }
+}

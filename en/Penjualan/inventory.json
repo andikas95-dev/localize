@@ -1,0 +1,132 @@
+{
+  "stockList": {
+    "titleSection": {
+      "title": "Stock List",
+      "exportStockListButton": "Export Stock List",
+      "importBulkMaterialButton": "Import Bulk Material",
+      "addMaterialButton": "Add Material"
+    },
+    "filterSection": {
+      "buttonGroupItem": {
+        "all": "All",
+        "Produk": "Product",
+        "Bahan": "Material"
+      },
+      "materialMobileFilterSection": "Material Filter",
+      "rangeFilterSection": {
+        "rangeFilterButton": "Stock Quantity",
+        "rangeFilterTitle": "Last Stock Amount Range",
+        "rangeFilterMax": "MAX",
+        "rangeFilterCheckbox": "Show Minimum Stock",
+        "rangeFilterProceed": "Proceed"
+      },
+      "dynamicColumn": {
+        "placeholder": "Include Columns",
+        "items": {
+          "stock_terbuang": "Wasted",
+          "produksi_keluar": "Produced",
+          "stock_in_transit": "Transit",
+          "stock_keluar": "Out"
+        }
+      }
+    },
+    "table": {
+      "nameMobile": "PRODUCT NAME",
+      "name": "PRODUCT",
+      "stockMinimum": "Stock {{ lastStockVal }} <br /> below minimum limit of 0",
+      "sku": "SKU",
+      "type": "TYPE",
+      "stock_awal": "INITIAL",
+      "stock_masuk": "IN",
+      "stock_keluar": "OUT",
+      "produksi_keluar": "PRODUCED",
+      "stock_terjual": "SOLD",
+      "stock_terbuang": "WASTED",
+      "stock_in_transit": "TRANSIT",
+      "stock_akhir": "LAST",
+      "unit": "UNIT"
+    },
+    "dialog": {
+      "exportDialog": {
+        "title": "Export Stock List",
+        "description": "Please wait, the system is processing the stock list. You will receive notifications & email alerts when data is ready to download."
+      },
+      "importBulkMaterialDialog": {
+        "title": "Import Product Data",
+        "description": "Add materials at once by clicking the export template button (if you don't have an excel file yet) below.",
+        "warning": "(Please attention: Raw materials imported together will be registered in all outlets)",
+        "toast": {
+          "importSucceed": "Product data import was successful",
+          "duplicatedEntry": "Data upload failed, there are duplicate product names / SKU codes, please check your files again."
+        }
+      },
+      "stockListDialog": {
+        "titleSection": "Raw Material Information",
+        "form": {
+          "outletList": {
+            "label": "Outlet List",
+            "selectPlaceholder": "Choose"
+          },
+          "rawMaterialName": {
+            "label": "Raw Material Name",
+            "placeholder": "Example: Flour"
+          },
+          "inventoryMonitor": {
+            "label": "Inventory Monitor",
+            "switchLabel": "Enable inventory monitor"
+          },
+          "minimumStock": {
+            "label": "Minimum Stock <br />Reminder",
+            "labelMobile": "Minimum Stock Reminder"
+          },
+          "unitInformation": {
+            "label": "Unit Information",
+            "addUnitButton": "Add Unit",
+            "editableTable": {
+              "unit": "UNIT",
+              "conversion": "CONVERSION",
+              "unitExample": "Example: Bottle",
+              "capitalPrice": "CAPITAL PRICE",
+              "purchasePrice": "PURCHASE PRICE",
+              "skuPlaceholder": "Example: BB001"
+            },
+            "defaultUnit": {
+              "heading": "Default Unit",
+              "savingUnit": "Storage Unit",
+              "purchasingUnit": "Purchasing Unit"
+            }
+          },
+          "errorMessage": {
+            "branchId": "Please select an outlet",
+            "name": "Raw material name is required",
+            "multiUnits": {
+              "unitName": "Please complete unit name",
+              "unitSKU": "Please complete SKU"
+            }
+          }
+        },
+        "savePopup": {
+          "title": "Save Raw Material",
+          "descriptionAdd": "Raw Material <strong>{{name}}</strong> will be stored and appear in stock list. Continue?",
+          "descriptionEdit": "Saving raw material changes <strong>{{name}}</strong> will change data as a whole. Continue?"
+        },
+        "monitoringDialog": {
+          "title": "Inventory Monitoring",
+          "description": "<strong>{{ name }}</strong> stock is more than 0, please change stock to 0 to disable stock monitor"
+        },
+        "cancelPopup": {
+          "titleAdd": "Cancel Add Raw Material",
+          "titleEdit": "Cancel Edit Raw Material",
+          "description": "Canceling this process will delete all data that has been input. Continue?"
+        },
+        "deleteMaterialDialog": {
+          "title": "Delete Material",
+          "description": "Deleting <strong>{{ name }}</strong> will permanently remove that item from the list and irrevocably. Continue?"
+        },
+        "toast": {
+          "saveEditDeleteMessage": "Raw material <strong>{{ dataName }}</strong> succeeded {{ status }}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "extraSales": "Extra Sales",
+  "chartType": {
+    "sales" : "Sales",
+    "product": "Product"
+  },
+  "extraSalesChart" : "Extra Sales Chart",
+  "period": {
+    "hour": "Hour",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "summary": {
+    "totalExtra": "Total Extra",
+    "totalExtraItems": "Total Extra Items",
+    "totalExtraSales": "Total Extra Sales"
+  },
+  "columns": {
+    "extraName": "Extra Name",
+    "quantity": "Quantity",
+    "quantityPercent": "Quantity (%)",
+    "sales": "Sales (Rp)",
+    "salesPercent": "Sales (%)"
+  },
+  "modal": {
+    "export": {
+      "description" : "The <bold>Extra Sales</bold> report for the period <bold>{{startDate}}</bold> to <bold>{{endDate}}</bold> will be exported and stored on the device used. Continue?"
+    },
+    "toast": {
+      "successExport" : "<bold>Extra Sales</bold> report successfully exported",
+      "failedExport" : "<bold>Extra Sales</bold> report failed to export"
+    }
+  }
+}

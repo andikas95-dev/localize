@@ -1,0 +1,72 @@
+{
+  "depositList": "Deposit List",
+  "addDeposit": "Add Deposit",
+  "editDeposit": "Edit Deposit",
+  "saveDeposit": "Save Deposit",
+  "dataType": {
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "columns" : {
+    "depositName" : "Deposit Name",
+    "price": "Price",
+    "validityPeriod": "Validity Period",
+    "outlet": "Outlet",
+    "status": "Status",
+    "edit": "Edit",
+    "activityLog": "Activity Log",
+    "delete": "Delete"
+  },
+  "columnsProducts":{
+    "product": "Product",
+    "category": "Category",
+    "price": "Price"
+  },
+  "depositInformation": "Deposit Information",
+  "status&ValidityPeriod": "Status & Validity Period",
+  "deposit": "Deposit",
+  "setProduct": "Set Product",
+  "depositInformationBanner": "Deposit sales at the cashier must be in a separate transaction and cannot be combined with sales of other products",
+  "photoInformation": "Image format .jpg .jpeg .png and minimum size 360 ​​x 300px (For optimal images use minimum size 800 x 700 px).",
+  "outletList": "Outlet List",
+  "photo": "Photo",
+  "depositPlaceholder": "Example: Depo Burger",
+  "sellingPrice": "Selling Price",
+  "sellingPricePlaceholder": "Example: Rp 12.000",
+  "shownInMenu": "Shown in Menu",
+  "depositAmount": "Deposit Amount",
+  "depositAmountPlaceholder": "Example: Rp 1.000.000",
+  "productList": "Product List",
+  "1Month": "1 Month (30 Days)",
+  "days": "days",
+  "day": "day",
+  "modal":{
+    "title": {
+      "cancelAddTitle": "Cancel Add Deposit",
+      "cancelEditTitle" : "Cancel Edit Deposit",
+      "deleteTitle": "Delete Deposit"
+    },
+    "confirm":{
+      "addDescription": "<bold>{{nameDeposit}}</bold> deposit will be saved and appear in the deposit list according to the settings that have been made. Continue?",
+      "editDescription": "The <bold>{{nameDeposit}}</bold> deposit will be saved and appear in the deposit list according to the settings that have been made. Continue?",
+      "cancelDescription": "Canceling <bold>{{nameDeposit}}</bold> will delete all data that has been inputted and cannot be undone. Continue?",
+      "deleteDescription": "Deleting <bold>{{nameDeposit}}</bold> deposit will permanently remove that deposit and cannot be undone. Continue?"
+    },
+    "toast": {
+      "addSuccess": "<bold>{{depositName}}</bold> deposit successfully added",
+      "editSuccess": "<bold>{{depositName}}</bold> deposit successfully changed",
+      "deleteSuccess": "<bold>{{depositName}}</bold> deposit successfully deleted"
+    }
+  },
+  "form":{
+    "outletRequired": "Please select an Outlet",
+    "depositNameRequired": "Please fill in the Deposit Name",
+    "sellingPriceRequired": "Please fill in the Selling Price",
+    "depositAmountRequired": "Please fill in the Deposit Amount",
+    "itemRequired": "Please select a product first"
+  },
+  "selectProduct": "Select Product",
+  "allCategories": "All Categories",
+  "allProducts": "All Products"
+}

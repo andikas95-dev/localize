@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "title": "Tampilan Baru Majoo",
+    "description": "Anda sedang berada di tampilan terbaru dashboard majoo. Jika Anda ingin mengganti ke tampilan sebelumnya",
+    "link": "Klik Disini"
+  },
+  "content": {
+    "welcome": "Masuk ke Dashboard",
+    "password": "Kata Sandi",
+    "forgot": "Lupa kata sandi?",
+    "accountMessage": "Belum punya akun majoo? ",
+    "register": "Daftar",
+    "button": "Masuk",
+    "placeholder": {
+      "email": "Contoh: majoo@gmail.com",
+      "password": "Contoh: Sandi123!"
+    }
+  },
+  "footer": {
+    "language": "Pilih bahasa"
+  },
+  "errors": {
+    "format": "Maaf, email yang anda masukkan tidak sesuai format",
+    "email": "Email wajib diisi",
+    "password": "Kata sandi wajib diisi",
+    "invalidCredentials": "Email/kata sandi tidak sesuai",
+    "server": "Server sedang sibuk, silakan coba lagi nanti",
+    "connection": {
+      "title": "Internet Bermasalah",
+      "description": "Tidak ada koneksi internet, mohon periksa jaringan"
+    }
+  }
+}

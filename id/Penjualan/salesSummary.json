@@ -1,0 +1,50 @@
+{
+    "header": {
+      "title": "Ringkasan Penjualan",
+      "buttonDownload": "Ekspor Laporan"
+    },
+    "card": {
+        "revenue": "Total Pendapatan",
+        "cost": "Biaya Promosi",
+        "sales": "Total Penjualan",
+        "grossProfit": "Total Laba Kotor"
+    },
+    "modal": {
+        "description": "Laporan <strong>Ringkasan Penjualan</strong> pada periode <strong>{{startDate}}</strong> sampai <strong>{{endDate}}</strong> kan diekspor dan disimpan di perangkat yang digunakan. Lanjutkan?"
+    },
+    "toast":{
+        "exportSuccess": "Laporan <strong>Ringkasan Penjualan</strong> berhasil diekspor",
+        "exportFailed": "Laporan <strong>Ringkasan Penjualan</strong> gagal diekspor"
+    },
+    "content": {
+        "title": "Rincian Ringkasan Penjualan",
+        "tableRevenue": 
+            {
+                "headerTable":"PENDAPATAN",
+                "row1": "Penjualan Kotor",
+                "row2": "Ongkos Kirim",
+                "row3": "Biaya Pelayanan",
+                "row4": "Biaya Pelayanan MDR",
+                "row5": "Pembulatan",
+                "row6": "Pajak",
+                "row7": "Lainnya"
+            },
+        "tablePromotionalCost": 
+            {
+                "headerTable":"BIAYA PROMOSI",
+                "row1": "Promo Pembelian",
+                "row2": "Promo Produk",
+                "row3": "Komplimen"
+            },
+        "tableGrossProfit": 
+            {
+                "headerTable":"LABA KOTOR",
+                "row1": "Penjualan",
+                "row2": "Biaya MDR",
+                "row3": "Pengembalian",
+                "row4": "HPP",
+                "row5": "Komisi",
+                "tooltip": "Total Pendapatan - Total Biaya Promo"
+            }
+    }
+}

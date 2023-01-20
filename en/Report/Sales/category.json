@@ -1,0 +1,26 @@
+{
+  "categorySales": "Category Sales",
+  "categorySalesChart": "Category Sales Chart",
+  "allDepartment": "All Department",
+  "summary": {
+    "totalCategory": "Total Category",
+    "totalCategorySales": "Total Category Sales"
+  },
+  "columns": {
+    "categories": "Categories",
+    "productQty": "Product Qty",
+    "product": "Product (%)",
+    "sales": "Sales (RP)",
+    "salesPercent": "Sales (%)",
+    "cogs": "Cogs (RP)"
+  },
+  "modal": {
+    "export" : {
+      "description" : "The <bold>Category Sales</bold> report for the period <bold>{{startDate}}</bold> to <bold>{{endDate}}</bold> will be exported and stored on the device used. Continue?"
+    },
+    "toast": {
+      "successExport" : "<bold>Category Sales</bold> report successfully exported",
+      "failedExport" : "<bold>Category Sales</bold> report failed to export"
+    }
+  }
+}

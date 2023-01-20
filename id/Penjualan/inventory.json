@@ -1,0 +1,132 @@
+{
+  "stockList": {
+    "titleSection": {
+      "title": "Daftar Stok",
+      "exportStockListButton": "Ekspor Daftar Stok",
+      "importBulkMaterialButton": "Impor Bulk Bahan Baku",
+      "addMaterialButton": "Tambah Bahan"
+    },
+    "filterSection": {
+      "buttonGroupItem": {
+        "all": "Semua",
+        "Produk": "Produk",
+        "Bahan": "Bahan"
+      },
+      "materialMobileFilterSection": "Filter Bahan",
+      "rangeFilterSection": {
+        "rangeFilterButton": "Jumlah Stok",
+        "rangeFilterTitle": "Rentang Jumlah Stok Akhir",
+        "rangeFilterMax": "MAKS",
+        "rangeFilterCheckbox": "Tampilkan Stok Minim",
+        "rangeFilterProceed": "Proses"
+      },
+      "dynamicColumn": {
+        "placeholder": "Sertakan Kolom",
+        "items": {
+          "stock_terbuang": "Terbuang",
+          "produksi_keluar": "Terproduksi",
+          "stock_in_transit": "Transit",
+          "stock_keluar": "Keluar"
+        }
+      }
+    },
+    "table": {
+      "nameMobile": "NAMA PRODUK",
+      "name": "PRODUK",
+      "stockMinimum": "Stock {{ lastStockVal }} <br /> dibawah batas minimum 0",
+      "sku": "SKU",
+      "type": "TIPE",
+      "stock_awal": "AWAL",
+      "stock_masuk": "MASUK",
+      "stock_keluar": "KELUAR",
+      "produksi_keluar": "TERPRODUKSI",
+      "stock_terjual": "TERJUAL",
+      "stock_terbuang": "TERBUANG",
+      "stock_in_transit": "TRANSIT",
+      "stock_akhir": "AKHIR",
+      "unit": "SATUAN"
+    },
+    "dialog": {
+      "exportDialog": {
+        "title": "Ekspor Daftar Stok",
+        "description": "Mohon menunggu, sistem sedang memproses daftar stok. Anda akan menerima pemberitahuan notifikasi & email saat data siap untuk diunduh."
+      },
+      "importBulkMaterialDialog": {
+        "title": "Import Data Produk",
+        "description": "Tambah bahan sekaligus dengan klik tombol ekspor template (jika belum memiliki file excel) di bawah ini.",
+        "warning": "(Harap diperhatikan: Bahan baku yang diimpor bersamaan akan didaftarkan di semua oulet)",
+        "toast": {
+          "importSucceed": "Impor data Produk berhasil",
+          "duplicatedEntry": "Upload data gagal, terdapat duplikasi pada nama produk / kode SKU, harap periksa kembali file anda."
+        }
+      },
+      "stockListDialog": {
+        "titleSection": "Informasi Bahan Baku",
+        "form": {
+          "outletList": {
+            "label": "Daftar Outlet",
+            "selectPlaceholder": "Pilih"
+          },
+          "rawMaterialName": {
+            "label": "Nama Bahan Baku",
+            "placeholder": "Contoh: Tepung"
+          },
+          "inventoryMonitor": {
+            "label": "Monitor Persediaan",
+            "switchLabel": "Aktifkan monitor persediaan"
+          },
+          "minimumStock": {
+            "label": "Pengingat Stok <br />Minimum",
+            "labelMobile": "Pengingat Stok Minimum"
+          },
+          "unitInformation": {
+            "label": "Informasi Satuan",
+            "addUnitButton": "Tambah Satuan",
+            "editableTable": {
+              "unit": "SATUAN",
+              "conversion": "KONVERSI",
+              "unitExample": "Contoh: Botol",
+              "capitalPrice": "HARGA MODAL",
+              "purchasePrice": "HARGA BELI",
+              "skuPlaceholder": "Contoh: BB001"
+            },
+            "defaultUnit": {
+              "heading": "Satuan Default",
+              "savingUnit": "Satuan Penyimpanan",
+              "purchasingUnit": "Satuan Pembelian"
+            }
+          },
+          "errorMessage": {
+            "branchId": "Silakan pilih outlet",
+            "name": "Nama bahan baku harus diisi",
+            "multiUnits": {
+              "unitName": "Mohon lengkapi nama satuan",
+              "unitSKU": "Mohon lengkapi SKU"
+            }
+          }
+        },
+        "savePopup": {
+          "title": "Simpan Bahan Baku",
+          "descriptionAdd": "Bahan Baku <strong>{{name}}</strong> akan disimpan dan tampil di daftar stok. Lanjutkan?",
+          "descriptionEdit": "Menyimpan perubahan bahan baku <strong>{{name}}</strong> akan mengubah data secara keseluruhan. Lanjutkan?"
+        },
+        "monitoringDialog": {
+          "title": "Monitoring Persediaan",
+          "description": "Stok <strong>{{ name }}</strong> lebih dari 0, mohon ubah stok menjadi 0 untuk dapat menonaktifkan monitor persediaan"
+        },
+        "cancelPopup": {
+          "titleAdd": "Batal Tambah Bahan Baku",
+          "titleEdit": "Batal Ubah Bahan Baku",
+          "description": "Membatalkan proses ini akan menghapus seluruh data yang telah diinput. Lanjutkan?"
+        },
+        "deleteMaterialDialog": {
+          "title": "Hapus Bahan",
+          "description": "Menghapus <strong>{{ name }}</strong> akan menghilangkan bahan tersebut secara permanen dari daftar dan tidak dapat dibatalkan. Lanjutkan?"
+        },
+        "toast": {
+          "saveEditDeleteMessage": "Bahan baku <strong>{{ dataName }}</strong> berhasil {{ status }}"
+        }
+      }
+    }
+  }
+}

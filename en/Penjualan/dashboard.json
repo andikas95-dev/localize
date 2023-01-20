@@ -1,0 +1,8 @@
+{
+  "banner": {
+    "header": "Hello {{namaUser}}, Welcome Back!",
+    "sub": "Please update your account & enjoy additional features from Majoo for your business",
+    "laterButton": "Later",
+    "updateNowButton": "Update Now"
+  }
+}

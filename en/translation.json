@@ -1,0 +1,74 @@
+{
+    "legend": {
+        "sales": "Sales",
+        "transaction": "Transaction",
+        "grossProfit": "Gross Profit",
+        "product": "Product"
+    },
+    "period": {
+        "hour": "Hour",
+        "day": "Day",
+        "week": "Week",
+        "month": "Month",
+        "year": "Year"
+    },
+    "save": "Save",
+    "label": {
+        "exportReport": "Export Report",
+        "exportTemplate": "Export Template",
+        "importData": "Import Data",
+        "exportData": "Export Data",
+        "cancel": "Cancel",
+        "cancelled": "Cancelled",
+        "continue": "Yes, Continue",
+        "continue2": "Continue",
+        "apply": "Apply",
+        "confirm": "OK, Got it",
+        "waiting": "Waiting...",
+        "importConfirmation": "Import Confirmation",
+        "close": "Close",
+        "nextOption": "Next Option",
+        "delete": "Delete",
+        "added": "added",
+        "changed": "changed",
+        "deleted": "deleted",
+        "exporting": "Exporting",
+        "addProduct": "Add Product",
+        "product": "Product"
+    },
+    "placeholder": {
+        "search": "Search ..."
+    },
+    "select": {
+        "categoryDefaultSelectOption": "All Category",
+        "typeSelectTitle": "Choose Type",
+        "select": "Select",
+        "typeSelectOption": {
+            "default": "All Type",
+            "product": "Product",
+            "material": "Material"
+        },
+        "showOnMenuOption": {
+            "semua": "All",
+            "tampilMenu": "Show on menu",
+            "tidakTampil": "Not Show on Menu"
+        }
+    },
+    "warning": {
+        "capitalMoreThanPurchasePrice": "There is some data that has a capital price greater than selling price."
+    },
+    "suggest": {
+        "continueAddMaterialOrCancel": "Please select continue to add material, or press Cancel to cancel."
+    },
+    "error": {
+        "fileNotFound": "File not found on server",
+        "exportFail": "Fail exporting file",
+        "importFail": "Fail importing data",
+        "unchoosedFile": "Please choose file first",
+        "unmatchLengthRequirementsItem": "Item not meet requirement {{notMatchReq}}"
+    },
+    "toast": {
+        "success": "Succeed!",
+        "error": "Failed!"
+    }
+}

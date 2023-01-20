@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "title": "Majoo's New Look",
+    "description": "You are in the latest view of the majoo dashboard. If you want to change to previous view",
+    "link": "Click Here"
+  },
+  "content": {
+    "welcome": "Login to Dashboard",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "accountMessage": "New to majoo? ",
+    "register": "Sign Up",
+    "button": "Log In",
+    "placeholder": {
+      "email": "Example: majoo@gmail.com",
+      "password": "Example: Sandi123!"
+    }
+  },
+  "footer": {
+    "language": "Select language"
+  },
+  "errors": {
+    "format": "Invalid email format",
+    "email": "Email is required",
+    "password": "Password is required",
+    "invalidCredentials": "Email/Password does not match",
+    "server": "Server busy, please try again later",
+    "connection": {
+      "title": "No Connection",
+      "description": "Please check your internet connection"
+    }
+  }
+}
