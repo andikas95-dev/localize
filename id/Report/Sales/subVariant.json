@@ -24,7 +24,8 @@
     "salesPercent": "Penjualan %",
     "grossProfit": "Laba Kotor (Rp)",
     "grossProfitPercent": "Laba Kotor %",
-    "measurement": "Measurement"
+    "measurement": "Measurement",
+    "test1": "Test 1"
   },
   "modal": {
     "export" : {
